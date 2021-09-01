@@ -1,0 +1,27 @@
+@import "general.scss";
+
+.footer {
+    background-color: #DED9D5;
+}
+
+.footer--container {
+    display:grid;
+    grid-template-columns: 180px 1fr 100px;
+    grid-column-gap: 60px;
+    box-sizing: border-box;
+    min-height: 80px;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer--nav {
+    justify-self: center;
+}
+
+.footer--socials-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

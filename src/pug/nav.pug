@@ -1,0 +1,6 @@
+mixin list(...items)
+  ul.nav--ul
+    each item in items
+      li.nav--li= item
+
++list('Каталог', 'Подписка', 'Отзывы', 'Контакты')

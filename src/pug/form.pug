@@ -1,0 +1,18 @@
+label(for='category').visually-hidden Сортировать по категориям
+select(name='category' class="filter" id="category")
+    option(value='category') Категория
+
+label(for='flower').visually-hidden Сортировать по цветам
+select(name='flower' class="filter" id="flower")
+    option(value='flower') Цветы
+
+label(for='price').visually-hidden Сортировать по цене
+select(name='price' class="filter" id="price")
+    option(value='price') Цена
+
+//- mixin formInner(...items, ...sels)
+//-     each item in items
+//-         label.visually-hidden= item 
+//-             each sel in sels
+//-                 select.filter
+//- +formInner('Сортировать по категориям', 'Сортировать по цветам', 'Сортировать по цене')
